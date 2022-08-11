@@ -49,19 +49,19 @@ Autumn Annual Conference of IEIE(The Institute of Electronics and Information En
 
 ## Research Experience
 - **MLAI Lab, KAIST**, Jun. 2021 - Jul. 2022 \\
-Undergraduate Research Intern at <a href="https://www.mlai-kaist.com/" style="color: #900023; text-decoration: none;">**MLAI**</a>[MLAI] lab under supervision of Prof. <a href="http://www.sungjuhwang.com/" style="color: #900023; text-decoration: none;">**Sung Ju Hwang**</a>. 
+Undergraduate Research Intern at <a href="https://www.mlai-kaist.com/" style="color: #900023; text-decoration: none;">**MLAI**</a> lab under supervision of Prof. <a href="http://www.sungjuhwang.com/" style="color: #900023; text-decoration: none;">**Sung Ju Hwang**</a>. 
 
 
 ## Work Experiences
-- <a href="https://www.upstage.ai/" style="color: #900023; text-decoration: none;">**Upstage AI**</a> \\
-Mentor of Computer Vision team of BoostCamp AI Tech 3rd course. 
-- <a href="https://www.upstage.ai/" style="color: #900023; text-decoration: none;">**Upstage AI**</a> \\
-Mentor of Computer Vision team of BoostCamp AI Tech 2rd course, led by Prof. <a href="https://ami.postech.ac.kr/members/tae-hyun-oh" style="color: #900023; text-decoration: none;">**Tae Hyun Oh**</a>.
-- <a href="https://www.upstage.ai/" style="color: #900023; text-decoration: none;">**Upstage AI**</a> \\
-Teaching assistant of Computer Vision team of BoostCamp AI Tech 1rd course, led by Prof. <a href="https://ami.postech.ac.kr/members/tae-hyun-oh" style="color: #900023; text-decoration: none;">**Tae Hyun Oh**</a>.
-- <a href="https://www.voyagerx.com/" style="color: #900023; text-decoration: none;">**VoyagerX**</a> \\
+- **Upstage AI** \\
+Mentor of Computer Vision team of BoostCamp AI Tech 3rd course of <a href="https://www.upstage.ai/" style="color: #900023; text-decoration: none;">**Upstage AI**</a>. 
+- **Upstage AI** \\
+Mentor of Computer Vision team of BoostCamp AI Tech 2rd course of <a href="https://www.upstage.ai/" style="color: #900023; text-decoration: none;">**Upstage AI**</a>, led by Prof. <a href="https://ami.postech.ac.kr/members/tae-hyun-oh" style="color: #900023; text-decoration: none;">**Tae Hyun Oh**</a>.
+- **Upstage AI** \\
+Teaching assistant of Computer Vision team of BoostCamp AI Tech 1rd course of <a href="https://www.upstage.ai/" style="color: #900023; text-decoration: none;">**Upstage AI**</a>, led by Prof. <a href="https://ami.postech.ac.kr/members/tae-hyun-oh" style="color: #900023; text-decoration: none;">**Tae Hyun Oh**</a>.
+- **VoyagerX** \\
 Deep learning developer intern of a mobile scanner <a href="https://www.vflat.com/" style="color: #900023; text-decoration: none;">**vFlat**</a>. team at a startup <a href="https://www.voyagerx.com/" style="color: #900023; text-decoration: none;">**VoyagerX**</a>.
-- <a href="https://www.swmaestro.org/sw/main/main.do/" style="color: #900023; text-decoration: none;">**Software Maestro**</a> \\
+- **Software Maestro** \\
 Developed a moblie application *DalDang* as a 10'th trainee at <a href="https://www.swmaestro.org/sw/main/main.do/" style="color: #900023; text-decoration: none;">**Software Maestro**</a>.
 
 ## Domestic Patents
