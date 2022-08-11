@@ -50,20 +50,20 @@ Autumn Annual Conference of IEIE(The Institute of Electronics and Information En
 
 ## Research Experience
 - **MLAI Lab, KAIST**, Jun. 2021 - Jul. 2022 \\
-Undergraduate Research Intern at [MLAI](https://www.mlai-kaist.com/) lab under supervision of Prof. [Sung Ju Hwang](http://www.sungjuhwang.com/). 
+Undergraduate Research Intern at <a href="https://www.mlai-kaist.com/" style="color: #900023; text-decoration: none;">**MLAI**</a>[MLAI] lab under supervision of Prof. <a href="http://www.sungjuhwang.com/" style="color: #900023; text-decoration: none;">**Sung Ju Hwang**</a>. 
 
 
 ## Work Experiences
 - <a href="https://www.upstage.ai/" style="color: #900023; text-decoration: none;">**Upstage AI**</a> \\
 Mentor of Computer Vision team of BoostCamp AI Tech 3rd course. 
-- [Upstage AI](https://www.upstage.ai/) \\
-Mentor of Computer Vision team of BoostCamp AI Tech 2rd course, led by Prof. [Tae Hyun Oh](https://ami.postech.ac.kr/members/tae-hyun-oh).
-- [Upstage AI](https://www.upstage.ai/) \\
-Teaching assistant of Computer Vision team of BoostCamp AI Tech 1rd course, led by Prof. [Tae Hyun Oh](https://ami.postech.ac.kr/members/tae-hyun-oh).
-- [VoyagerX](https://www.voyagerx.com/) \\
-Deep learning developer intern of a mobile scanner [vFlat](https://www.vflat.com/) team at startup [VoyagerX](https://www.voyagerx.com/).
-- [Software Maestro](https://www.swmaestro.org/sw/main/main.do) \\
-Developed a moblie application *DalDang* as a 10'th trainee at [Software Maestro](https://www.swmaestro.org/sw/main/main.do).
+- <a href="https://www.upstage.ai/" style="color: #900023; text-decoration: none;">**Upstage AI**</a> \\
+Mentor of Computer Vision team of BoostCamp AI Tech 2rd course, led by Prof. <a href="https://ami.postech.ac.kr/members/tae-hyun-oh" style="color: #900023; text-decoration: none;">**Tae Hyun Oh**</a>.
+- <a href="https://www.upstage.ai/" style="color: #900023; text-decoration: none;">**Upstage AI**</a> \\
+Teaching assistant of Computer Vision team of BoostCamp AI Tech 1rd course, led by Prof. <a href="https://ami.postech.ac.kr/members/tae-hyun-oh" style="color: #900023; text-decoration: none;">**Tae Hyun Oh**</a>.
+- <a href="https://www.voyagerx.com/" style="color: #900023; text-decoration: none;">**VoyagerX**</a> \\
+Deep learning developer intern of a mobile scanner <a href="https://www.vflat.com/" style="color: #900023; text-decoration: none;">**vFlat**</a>. team at a startup <a href="https://www.voyagerx.com/" style="color: #900023; text-decoration: none;">**VoyagerX**</a>.
+- <a href="https://www.swmaestro.org/sw/main/main.do/" style="color: #900023; text-decoration: none;">**Software Maestro**</a> \\
+Developed a moblie application *DalDang* as a 10'th trainee at <a href="https://www.swmaestro.org/sw/main/main.do/" style="color: #900023; text-decoration: none;">**Software Maestro**</a>.
 
 ## Domestic Patents
 - **Method for measuring sugar content of apple using image.** \\
