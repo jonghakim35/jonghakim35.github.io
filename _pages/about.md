@@ -7,14 +7,14 @@ redirect_from:
   - /about/
   - /about.html
 ---
-# About Me
-Hi, I'm Jongha Kim, a M.S & Ph. D integrated student at <a href="https://mlv.korea.ac.kr/" style="color: #900023; text-decoration: none;">Machine Learning and Vision Lab (MLV)</a> in Korea University, under the supervision of Prof. Hyunwoo J. Kim. I received my B.S. degree in Computer Science and Engineering & Statistics (double-major) in Korea University at Aug. 2022.
+Hi, I'm Jongha Kim, a M.S & Ph. D integrated student at <a href="https://mlv.korea.ac.kr/" style="color: #900023; text-decoration: none;">Machine Learning and Vision Lab (MLV)</a> in Korea University, under the supervision of Prof. Hyunwoo J. Kim. 
+I received my B.S. degree in Computer Science and Engineering & Statistics (double-major) in Korea University at Aug. 2022.
 
 My research interest includes:
 - Computer Vision
 - Graph Neural Networks (GNNs)
 
-## News
+<!-- ## News
 Aug. 2022. Research internship at **Meta AI**, Seattle, WA, USA \\
 Jul. 2022. Recipient of **Google Ph.D. fellowship** \\
 Feb. 2022. Recipient of AI/CS/EE Rising stars 2022 award by **Google exploreCSR** \\
@@ -26,19 +26,27 @@ Jan. 2021. One paper accepted to **ICLR 2021** \\
 Dec. 2020. Start of my internship at **AITRICS**, Seoul, South Korea \\
 Dec. 2020. ICML oustanding reviewer (Top 30%) \\
 Nov. 2020. Recipient of NAVER Ph.D. fellowship \\
-Dec. 2019. One paper accepted to **ICLR 2020** as <span style="color:red">Oral Presentation</span>
+Dec. 2019. One paper accepted to **ICLR 2020** as <span style="color:red">Oral Presentation</span> -->
 
 
 ## Education
-- **Ph.D.** in School of Computing, <a href="https://www.kaist.ac.kr/en/" style="color: #7289da; text-decoration: none;">**Korea Advanced Institute of Science and Technology (KAIST)**</a> \\
-Mar. 2018 - Aug. 2023 (expected)
-  
-- **M.S.** in School of Computing, <a href="https://www.kaist.ac.kr/en/" style="color: #7289da; text-decoration: none;">**Korea Advanced Institute of Science and Technology (KAIST)**</a> \\
-Mar. 2016 - Feb. 2018
+- **M.S. & Ph.D Integrated** in Artificial Intelligence Applications at <a href="https://www.korea.edu/mbshome/mbs/en/index.do" style="color: #7289da; text-decoration: none;">**Korea University)**</a> \\
+Sep. 2022 - Current
 
-- **B.S.** in Computer Science, <a href="https://www.skku.edu/eng/" style="color: #7289da; text-decoration: none;">**Sungkyunkwan University**</a> \\
-Mar. 2012 - Feb. 2016
+- **B.S.** in Computer Science and Engineering & Statistics(Double-major) at <a href="https://www.korea.edu/mbshome/mbs/en/index.do" style="color: #900023; text-decoration: none;">**Korea University**</a> \\
+Mar. 2018 - Aug. 2022 \\
+GPA : *4.22 / 4.5* (Major GPA : *4.25 / 4.5*)
 
+## International Conference Publications
+- **Object Detection in Aerial Images with Uncertainty-Aware Graph Network** \\
+[paper] \\
+<b>Jongha Kim</b>, Jinheon Baek, Sung Ju Hwang\\
+<span style="color:darkred">**ECCVW**</span> 2022, The first workshop on Visual Object-oriented Learning meets Interaction (VOLI): Discovery, Representations, and Applications
+
+## Domestic Conference Publication
+- **A study on the Measurement System of Apple Sugar Content Based on Smartphone Camera** \\
+Sanghoon Lee, <b>Jongha Kim</b>, Hyemin Song and Hyun Kim \\
+Autumn Annual Conference of IEIE(The Institute of Electronics and Information Engineers) 2019
 
 ## Awards & Honors
 - **Google Ph.D. Fellowship (2022)**
@@ -60,56 +68,6 @@ ICLR, 2020
 - Research Intern, <a href="https://www.etri.re.kr/intro.html" style="color: #7289da; text-decoration: none;">**National AI Research Institute**</a>, Deajeon, South Korea (Jul 2015 - Jun 2015)
 - Developer Intern, <a href="https://developer.samsung.com/" style="color: #7289da; text-decoration: none;">**Samsung Electronics**</a>, Suwon, South Korea (Jan 2015 - Feb 2015)
 
-
-## International Conference Publications
-- **Online Hyperparameter Meta-Learning with Hypergradient Distillation** \\
-<a href="https://arxiv.org/abs/2110.02508" style="color: #7289da; text-decoration: none;">[paper]</a> \\
-Hae Beom Lee, <u>Hayeon Lee</u>, Jaewoong Shin, Eunho Yang, Timothy Hospedales, Sung Ju Hwang \\
-<span style="color:darkred">**ICLR**</span> 2022, <span style="color:red">_Spotlight Presentation_</span> (acceptance = 176 / 3391 = 5.1%) 
-
-- **HELP: Hardware-Adaptive Efficient Latency Prediction for NAS via Meta-Learning** \\
-<a href="https://arxiv.org/abs/2106.08630" style="color: #7289da; text-decoration: none;">[paper]</a>
-<a href="https://github.com/HayeonLee/HELP" style="color: #7289da; text-decoration: none;">[code]</a> \\
-<u>Hayeon Lee*</u>, Sewoong Lee\*, Song Chong, Sung Ju Hwang (\*: equal contribution) \\
-<span style="color:darkred">**NeurIPS**</span> 2021, <span style="color:red">_Spotlight Presentation_</span> (acceptance < 3%)
-
-- **Task-Adaptive Neural Network Search with Meta-Contrastive Learning** \\
-<a href="https://arxiv.org/abs/2103.01495" style="color: #7289da; text-decoration: none;">[paper]</a>
-<a href="https://github.com/wyjeong/TANS" style="color: #7289da; text-decoration: none;">[code]</a> \\
-Wonyong Jeong\*, <u>Hayeon Lee*</u>, Gun Park\*, Eunyoung Hyung, Jinheon Baek, Sung Ju Hwang (\*: equal contribution) \\
-<span style="color:darkred">**NeurIPS**</span> 2021, <span style="color:red">_Spotlight Presentation_</span> (acceptance < 3%) 
-
-- **Rapid Neural Architecture Search by Learning to Generate Graphs from Datasets** \\
-<a href="https://openreview.net/forum?id=rkQuFUmUOg3" style="color: #7289da; text-decoration: none;">[paper]</a>
-<a href="https://github.com/HayeonLee/MetaD2A" style="color: #7289da; text-decoration: none;">[code]</a> \\
-<u>Hayeon Lee*</u>, Eunyoung Hyung\*, Sung Ju Hwang (\*: equal contribution) \\
-<span style="color:darkred">**ICLR**</span> 2021
-
-- **Learning to Balance: Bayesian Meta-Learning for Imbalanced and Out-of-distribution Tasks** \\
-<a href="https://openreview.net/pdf?id=rkeZIJBYvr" style="color: #7289da; text-decoration: none;">[paper]</a>
-<a href="https://github.com/haebeom-lee/l2b" style="color: #7289da; text-decoration: none;">[code]</a> \\
-Hae Beom Lee\*, <u>Hayeon Lee*</u>, Donghyun Na\*, Saehoon Kim, Minseop Park, Eunho Yang, Sung Ju Hwang (\*: equal contribution) \\
-<span style="color:darkred">**ICLR**</span> 2020, <span style="color:red">_Oral Presentation_</span> (acceptance = 48/2594 = 1.9%)
-
-## Domestic Conference Publication
-
-- **Learning Spatial Relationships for Cross Modal Retrieval** \\
-<u>Hayeon Lee*</u>, Wonjun Yoon\*, Jinseok Park, Sung Ju Hwang (\*: equal contribution) \\
-CKAIA 2020
-
-
-## Workshop Publication
-- **Lightweight Neural Architecture Search with Parameter Remapping and Knowledge Distillation** \\
-<a href="https://openreview.net/forum?id=3D2Qz9y001S" style="color: #7289da; text-decoration: none;">[paper]</a> \\
-<u>Hayeon Lee*</u>, Sohyun An\*, Minseon Kim, Sung Ju Hwang (\*: equal contribution)\\
-AutoML 2022 Workshop
-
-
-## Preprint
-- **SuperNet in Neural Architecture Search: A Taxonomic Survey** \\
-<a href="https://arxiv.org/abs/2204.03916" style="color: #7289da; text-decoration: none;">[paper]</a> \\
-Stephen Cha, Taehyeon Kim, <u>Hayeon Lee</u>, Se-Young Yun \\
-arXiv 2022
 
 
 ## Invited Talks
