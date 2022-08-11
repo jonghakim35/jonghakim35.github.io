@@ -30,7 +30,7 @@ Dec. 2019. One paper accepted to **ICLR 2020** as <span style="color:red">Oral P
 
 
 ## Education
-- **M.S. & Ph.D Integrated** in Artificial Intelligence Applications at <a href="https://www.korea.edu/mbshome/mbs/en/index.do" style="color: #7289da; text-decoration: none;">**Korea University)**</a> \\
+- **M.S. & Ph.D Integrated** in Artificial Intelligence Applications at <a href="https://www.korea.edu/mbshome/mbs/en/index.do" style="color: #900023; text-decoration: none;">**Korea University**</a> \\
 Sep. 2022 - Current
 
 - **B.S.** in Computer Science and Engineering & Statistics(Double-major) at <a href="https://www.korea.edu/mbshome/mbs/en/index.do" style="color: #900023; text-decoration: none;">**Korea University**</a> \\
@@ -48,66 +48,56 @@ GPA : *4.22 / 4.5* (Major GPA : *4.25 / 4.5*)
 Sanghoon Lee, <b>Jongha Kim</b>, Hyemin Song and Hyun Kim \\
 Autumn Annual Conference of IEIE(The Institute of Electronics and Information Engineers) 2019
 
-## Awards & Honors
-- **Google Ph.D. Fellowship (2022)**
-- <a href="https://womentechstars.github.io/" style="color: #7289da; text-decoration: none;">**AI/CS/EE Rising Stars Award**</a> \\
-Google exploreCSR, 2022
-- **The Best Presentation Award** \\
-KAIST-Korea Agency for Defence Development Workshop, 2021
-- **NAVER Ph.D. Fellowship** \\
-One of the ten Ph.D. students with outstanding research outcome in KAIST CS Dept., 2020
-- **Outstanding Reviewer (Top 30%)** \\
-ICML, 2020
-- **Kyunghyun Cho Travel Grant** \\
-ICLR, 2020
+## Research Experience
+- **MLAI Lab, KAIST**, Jun. 2021 - Jul. 2022 \\
+Undergraduate Research Intern at [MLAI](https://www.mlai-kaist.com/) lab under supervision of Prof. [Sung Ju Hwang](http://www.sungjuhwang.com/). 
 
 
 ## Work Experiences
-- Research Intern, <a href="https://ai.facebook.com/" style="color: #7289da; text-decoration: none;">**Meta AI**</a>, Seattle, WA (expected at Fall 2022)  
-- Research Intern, <a href="https://www.aitrics.com/" style="color: #7289da; text-decoration: none;">**AITRICS**</a>, Seoul, South Korea (Dec 2020 - Feb 2021)
-- Research Intern, <a href="https://www.etri.re.kr/intro.html" style="color: #7289da; text-decoration: none;">**National AI Research Institute**</a>, Deajeon, South Korea (Jul 2015 - Jun 2015)
-- Developer Intern, <a href="https://developer.samsung.com/" style="color: #7289da; text-decoration: none;">**Samsung Electronics**</a>, Suwon, South Korea (Jan 2015 - Feb 2015)
+- [Upstage AI](https://www.upstage.ai/) \\
+Mentor of Computer Vision team of BoostCamp AI Tech 3rd course. 
+- [Upstage AI](https://www.upstage.ai/) \\
+Mentor of Computer Vision team of BoostCamp AI Tech 2rd course, led by Prof. [Tae Hyun Oh](https://ami.postech.ac.kr/members/tae-hyun-oh).
+- [Upstage AI](https://www.upstage.ai/) \\
+Teaching assistant of Computer Vision team of BoostCamp AI Tech 1rd course, led by Prof. [Tae Hyun Oh](https://ami.postech.ac.kr/members/tae-hyun-oh).
+- [VoyagerX](https://www.voyagerx.com/) \\
+Deep learning developer intern of a mobile scanner [vFlat](https://www.vflat.com/) team at startup [VoyagerX](https://www.voyagerx.com/).
+- [Software Maestro](https://www.swmaestro.org/sw/main/main.do) \\
+Developed a moblie application *DalDang* as a 10'th trainee at [Software Maestro](https://www.swmaestro.org/sw/main/main.do).
 
+## Domestic Patents
+- Method for measuring sugar content of apple using image. \\
+Sanghoon Lee, Hyemin Song, <b>Jongha Kim</b> \\
+Korea Patent No.10-2242155, registrated at Apr 14, 2021.
+
+- Information providing method and system for sharing fruit information including sugar content information measured through image vision processing. \\
+Sanghoon Lee, Hyemin Song, <b>Jongha Kim</b>, Hyun Kim \\
+Korea Patent Application No.10-2020-0153010.
 
 
 ## Invited Talks
-- **"Rapid Neural Architecture Search by Learning to Generate Graphs from Datasets"** \\
-  - @ Samsung Electronics DS DIT Center, Korea, April 2021
-  - @ Korea Agency for Defence Development, Korea, October 2021
-  
-- **"Task-Adaptive Neural Network Search with Meta-Contrastive Learning"** \\
-  - @ NeurIPS Social: ML in Korea, Dec 2021
-  - @ Hanbat National University in Republic of Korea, April 2022
-  - @ KAIST Programming Language Research Group in Republic of Korea, May 2022
-  - @ Electronic & Information Research Information Center in Republic of Korea, May 2022
+- **"Defining and solving problems in deep learning projects"** \\
+BoostCamp AI Tech 2nd course, Nov 16, 2021.
 
-- **"HELP: Hardware-Adaptive Efficient Latency Prediction for NAS via Meta-Learning"** \\
-  - @ NeurIPS Social: ML in Republic of Korea, Dec 2021
-  - @ Hanbat National University in Republic of Korea, April 2022
-  - @ KAIST Programming Language Research Group in Republic of Korea, May 2022
-  - @ Electronic & Information Research Information Center in Republic of Korea, May 2022
-  - @ Ewha University in Republic of Korea, June 2022
   
 
-## News Articles
-- <a href="http://www.aitimes.com/news/articleView.html?idxno=141860" style="color: #7289da; text-decoration: none;">KAIST 황성주 교수팀, NeurIPS에 빅테크 오토ML 문제 푼 비결 공개</a>, AI Times, 2021.12.08
-- <a href="http://www.aitimes.com/news/articleView.html?idxno=144306" style="color: #7289da; text-decoration: none;">"NeurIPS에 소개된 국내 연구 성과는?" EIRIC, 5월부터 리뷰 세미나 개최</a>, AI Times, 2022.04.27
+## Awards & Scholarships
+- **Graduate School Outstanding Freshman Scholarship**, Korea University \\
+Scholarship awarded to an outstanding freshman in graduate school. \\
+Sep. 2022
 
+- **Dean's List**, Korea University \\
+Award given to a undergraduate student with perfect GPA (4.5/4.5) for a semester. \\
+Spring 2019
 
-## Academic Services
-**Conference Reviewer**
-- International Conference on Machine Learning (**ICML**) 2020, 2021 (expert), 2022
-- Neural Information Processing Systems (**NeurIPS**) 2020, 2021, 2022
-- International Conference on Learning Representations (**ICLR**) 2021, 2022
-- AAAI Conference on Artificial Intelligence (**AAAI**) 2021
-- Asian Conference on Machine Learning (**ACML**) 2020
+- **Semester High Honors**, Korea University \\
+Award given to a undergraduate student with high GPA (over 4.0/4.5) for a semester. \\
+Fall 2018, Fall 2019, Spring 2020, Spring 2021
 
-**Journal Reviewer**
-- Transactions on Machine Learning Research (**TMLR**)
+- **2020 Agrifood Public Big Data Startup Competition**, Korea Rural Development Administration \\
+2nd place in competition, with *Fruit harvesting and sugar content measurement platform using smartphones*.
+Aug 5, 2020
 
-
-## Projects
-- Human-Inspired Large-Scale Visual Recognition System, **Samsung Electronics**, 2019-2022
-
-- AutoML with Large-scale Hyperparameter Meta-Learning, **Google**, 2022-Present -->
-
+- **National Scholarship for Science and Engineering**, Korea Student Aid Foundation \\
+This scholarship supports undergraduates with strong academic performance in science and engineering, with the purpose of developing future leaders in those fields. \\
+Mar. 2018 - Aug. 2022
