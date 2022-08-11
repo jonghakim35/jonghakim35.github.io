@@ -81,12 +81,12 @@ analytics:
 # Site Author
 author:
   name             : "Jongha Kim"
-  avatar           : ""
+  avatar           : "images/jongha.jpeg"
   bio              : "M.S. & Ph.D integrated student at Korea University"
   location         : "Seoul, South Korea"
   employer         :
   pubmed           : 
-  googlescholar    : ""
+  googlescholar    : 
   email            : "jonghakim@korea.ac.kr"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -102,14 +102,14 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : ""
+  linkedin         : "jongha-kim-53545a1b5"
   orcid            :
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : ""
+  twitter          : "jonghajonghakim"
   vine             :
   weibo            :
   xing             :
