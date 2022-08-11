@@ -48,9 +48,10 @@ Sanghoon Lee, <b>Jongha Kim</b>, Hyemin Song and Hyun Kim \\
 Autumn Annual Conference of IEIE(The Institute of Electronics and Information Engineers) 2019
 
 ## Research Experience
-- **MLAI Lab, KAIST**, Jun. 2021 - Jul. 2022 \\
-Undergraduate Research Intern at <a href="https://www.mlai-kaist.com/" style="color: #900023; text-decoration: none;">**MLAI**</a> lab under supervision of Prof. <a href="http://www.sungjuhwang.com/" style="color: #900023; text-decoration: none;">**Sung Ju Hwang**</a>. 
-
+- **MLAI Lab** \\
+Undergraduate Research Intern at <a href="https://www.mlai-kaist.com/" style="color: #900023; text-decoration: none;">**MLAI**</a> lab at <a href="
+https://www.kaist.ac.kr/en/" style="color: #900023; text-decoration: none;">**KAIST**</a> under supervision of Prof. <a href="http://www.sungjuhwang.com/" style="color: #900023; text-decoration: none;">**Sung Ju Hwang**</a>. \\
+Jun. 2021 - Jul. 2022
 
 ## Work Experiences
 - **Upstage AI** \\
