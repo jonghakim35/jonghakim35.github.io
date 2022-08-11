@@ -7,9 +7,8 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Hi, I'm Jongha Kim, a M.S & Ph. D integrated student at <a href="https://mlv.korea.ac.kr/" style="color: #900023; text-decoration: none;">Machine Learning and Vision Lab (MLV)</a> in Korea University, under the supervision of Prof. Hyunwoo J. Kim. 
+Hi, I'm Jongha Kim, a M.S & Ph. D integrated student at <a href="https://mlv.korea.ac.kr/" style="color: #900023; text-decoration: none;">**Machine Learning and Vision Lab (MLV)**</a> in Korea University, under the supervision of Prof.  <a href="https://pages.cs.wisc.edu/~hwkim/" style="color: #900023; text-decoration: none;">**Hyunwoo J. Kim**</a>. 
 I received my B.S. degree in Computer Science and Engineering & Statistics (double-major) in Korea University at Aug. 2022.
-
 My research interest includes:
 - Computer Vision
 - Graph Neural Networks (GNNs)
