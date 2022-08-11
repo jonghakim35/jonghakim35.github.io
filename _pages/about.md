@@ -54,7 +54,7 @@ Undergraduate Research Intern at [MLAI](https://www.mlai-kaist.com/) lab under s
 
 
 ## Work Experiences
-- [Upstage AI](https://www.upstage.ai/) \\
+- <a href="https://www.upstage.ai/" style="color: #900023; text-decoration: none;">**Upstage AI**</a> \\
 Mentor of Computer Vision team of BoostCamp AI Tech 3rd course. 
 - [Upstage AI](https://www.upstage.ai/) \\
 Mentor of Computer Vision team of BoostCamp AI Tech 2rd course, led by Prof. [Tae Hyun Oh](https://ami.postech.ac.kr/members/tae-hyun-oh).
@@ -66,18 +66,19 @@ Deep learning developer intern of a mobile scanner [vFlat](https://www.vflat.com
 Developed a moblie application *DalDang* as a 10'th trainee at [Software Maestro](https://www.swmaestro.org/sw/main/main.do).
 
 ## Domestic Patents
-- Method for measuring sugar content of apple using image. \\
+- **Method for measuring sugar content of apple using image.** \\
 Sanghoon Lee, Hyemin Song, <b>Jongha Kim</b> \\
 Korea Patent No.10-2242155, registrated at Apr 14, 2021.
 
-- Information providing method and system for sharing fruit information including sugar content information measured through image vision processing. \\
+- **Information providing method and system for sharing fruit information including sugar content information measured through image vision processing.** \\
 Sanghoon Lee, Hyemin Song, <b>Jongha Kim</b>, Hyun Kim \\
 Korea Patent Application No.10-2020-0153010.
 
 
 ## Invited Talks
 - **"Defining and solving problems in deep learning projects"** \\
-BoostCamp AI Tech 2nd course, Nov 16, 2021.
+BoostCamp AI Tech 2nd course\\
+Nov 16, 2021.
 
   
 
@@ -95,7 +96,7 @@ Award given to a undergraduate student with high GPA (over 4.0/4.5) for a semest
 Fall 2018, Fall 2019, Spring 2020, Spring 2021
 
 - **2020 Agrifood Public Big Data Startup Competition**, Korea Rural Development Administration \\
-2nd place in competition, with *Fruit harvesting and sugar content measurement platform using smartphones*.
+2nd place in competition, with *Fruit harvesting and sugar content measurement platform using smartphones*. \\
 Aug 5, 2020
 
 - **National Scholarship for Science and Engineering**, Korea Student Aid Foundation \\
