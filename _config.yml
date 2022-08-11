@@ -6,14 +6,14 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : "ko-KR"
+locale                   : "en-US"
 title                    : "Jongha Kim"
 title_separator          : "-"
 name                     : &name "Jongha Kim"
-description              : &description "personal description"
-url                      : https://jonghakim35.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+description              : &description "M.S. & Ph.D integrated student at Korea University"
+url                      : 
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "jonghakim35/jonghakim35.github.io"
+repository               : "github.com/jonghakim35"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -57,7 +57,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               : 
 facebook:
   username               :
   app_id                 :
@@ -81,12 +81,12 @@ analytics:
 # Site Author
 author:
   name             : "Jongha Kim"
-  avatar           : "profile.png"
-  bio              : "M.S. & Ph.D Integrated student at Korea University"
+  avatar           : ""
+  bio              : "M.S. & Ph.D integrated student at Korea University"
   location         : "Seoul, South Korea"
   employer         :
-  pubmed           :  # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    :  # "http://yourfullgooglescholarurl.com"
+  pubmed           : 
+  googlescholar    : ""
   email            : "jonghakim@korea.ac.kr"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -102,14 +102,14 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
-  orcid            : # "http://orcid.org/yourorcidurl"
+  linkedin         : ""
+  orcid            :
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : # "replacethistwitterhandle"
+  twitter          : ""
   vine             :
   weibo            :
   xing             :
@@ -284,12 +284,12 @@ whitelist:
 #  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
 #  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
 #  - <base_path/my-awesome-category/index.html ~> path: /
-# category_archive:
-#   type: liquid
-#   path: /categories/
-# tag_archive:
-#   type: liquid
-#   path: /tags/
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
 # https://github.com/jekyll/jekyll-archives
 # jekyll-archives:
 #   enabled:
