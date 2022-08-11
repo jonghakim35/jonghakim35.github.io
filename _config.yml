@@ -48,10 +48,14 @@ linkedin_username: jongha-kim-53545a1b5
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, I'm Jongha Kim. |
-  I'm a M.S. & Ph.D integrated student in Artificial Intelligence Applications major at Korea University, Seoul. |
-  I'm under supervision of Prof. Hyunwoo J. Kim at [MLV Lab](https://www.hyunwoojkim.com/).  |
-  I received my B.S. degree in Computer Science and Engineering, and Statistics(double-major) in Korea University at Aug. 2022. |
+  Hi, I'm Jongha Kim.
+
+  I'm a M.S. & Ph.D integrated student in Artificial Intelligence Applications major at Korea University, Seoul. 
+
+  I'm under supervision of Prof. Hyunwoo J. Kim at [MLV Lab](https://www.hyunwoojkim.com/).  
+
+  I received my B.S. degree in Computer Science and Engineering, and Statistics(double-major) in Korea University at Aug. 2022. 
+  
   My research interest mainly lies in Computer Vision and Graph Neural Networks(GNNs), but not limited to.
 
 content:
