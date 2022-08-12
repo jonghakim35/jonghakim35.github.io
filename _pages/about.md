@@ -13,6 +13,7 @@ My research interest includes:
 - Computer Vision
 - Graph Neural Networks (GNNs)
 
+I love playing guitar🎸 and eating dakgalbi🐓.
 <!-- ## News
 Aug. 2022. Research internship at **Meta AI**, Seattle, WA, USA \\
 Jul. 2022. Recipient of **Google Ph.D. fellowship** \\
@@ -29,7 +30,7 @@ Dec. 2019. One paper accepted to **ICLR 2020** as <span style="color:red">Oral P
 
 
 ## Education
-- **M.S. & Ph.D Integrated** in Artificial Intelligence Applications at <a href="https://www.korea.edu/mbshome/mbs/en/index.do" style="color: #900023; text-decoratio.n: none;">**Korea University**</a> \\
+- **M.S. & Ph.D. Integrated** in Artificial Intelligence Applications at <a href="https://www.korea.edu/mbshome/mbs/en/index.do" style="color: #900023; text-decoratio.n: none;">**Korea University**</a> \\
 Sep. 2022 - Current
 
 - **B.S.** in Computer Science and Engineering & Statistics(Double-major) at <a href="https://www.korea.edu/mbshome/mbs/en/index.do" style="color: #900023; text-decoration: none;">**Korea University**</a> \\
