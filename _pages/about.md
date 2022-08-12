@@ -14,7 +14,7 @@ My research interest includes:
 - Graph Neural Networks (GNNs)
 
 I love playing guitar 🎸 and eating dakgalbi 🐓.
-This is my [CV](../cv.pdf).
+This is my <a href="../cv.pdf" style="color: #900023; text-decoratio.n: none;">**CV.**</a>
 <!-- ## News
 Aug. 2022. Research internship at **Meta AI**, Seattle, WA, USA \\
 Jul. 2022. Recipient of **Google Ph.D. fellowship** \\
