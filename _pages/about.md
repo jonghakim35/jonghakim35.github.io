@@ -59,9 +59,9 @@ Jun. 2021 - Jul. 2022
 - **Upstage AI** \\
 Mentor of Computer Vision team of BoostCamp AI Tech 3rd course of <a href="https://www.upstage.ai/" style="color: #900023; text-decoration: none;">**Upstage AI**</a>. 
 - **Upstage AI** \\
-Mentor of Computer Vision team of BoostCamp AI Tech 2rd course of <a href="https://www.upstage.ai/" style="color: #900023; text-decoration: none;">**Upstage AI**</a>, led by Prof. <a href="https://ami.postech.ac.kr/members/tae-hyun-oh" style="color: #900023; text-decoration: none;">**Tae Hyun Oh**</a>.
+Mentor of Computer Vision team led by Prof. <a href="https://ami.postech.ac.kr/members/tae-hyun-oh" style="color: #900023; text-decoration: none;">**Tae Hyun Oh**</a> in BoostCamp AI Tech 2rd course of <a href="https://www.upstage.ai/" style="color: #900023; text-decoration: none;">**Upstage AI**</a>.
 - **Upstage AI** \\
-Teaching assistant of Computer Vision team of BoostCamp AI Tech 1rd course of <a href="https://www.upstage.ai/" style="color: #900023; text-decoration: none;">**Upstage AI**</a>, led by Prof. <a href="https://ami.postech.ac.kr/members/tae-hyun-oh" style="color: #900023; text-decoration: none;">**Tae Hyun Oh**</a>.
+Teaching assistance of Computer Vision team led by Prof. <a href="https://ami.postech.ac.kr/members/tae-hyun-oh" style="color: #900023; text-decoration: none;">**Tae Hyun Oh**</a> in BoostCamp AI Tech 2rd course of <a href="https://www.upstage.ai/" style="color: #900023; text-decoration: none;">**Upstage AI**</a>.
 - **VoyagerX** \\
 Deep learning developer intern of a mobile scanner <a href="https://www.vflat.com/" style="color: #900023; text-decoration: none;">**vFlat**</a>. team at a startup <a href="https://www.voyagerx.com/" style="color: #900023; text-decoration: none;">**VoyagerX**</a>.
 - **Software Maestro** \\
@@ -95,7 +95,7 @@ Spring 2019
 
 - **Semester High Honors**, Korea University \\
 Award given to a undergraduate student with high GPA (over 4.0/4.5) for a semester. \\
-Fall 2018, Fall 2019, Spring 2020, Spring 2021
+Fall 2018, Spring 2019, Fall 2019, Spring 2020, Spring 2021, Fall 2021
 
 - **2020 Agrifood Public Big Data Startup Competition**, Korea Rural Development Administration \\
 2nd place in competition, with *Fruit harvesting and sugar content measurement platform using smartphones*. \\
