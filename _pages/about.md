@@ -40,7 +40,7 @@ GPA : *4.22 / 4.5* (Major GPA : *4.25 / 4.5*)
 
 ## International Conference Publications
 - **Object Detection in Aerial Images with Uncertainty-Aware Graph Network** \\
-[paper] \\
+[paper](https://arxiv.org/abs/2208.10781) [code] \\
 <b>Jongha Kim</b>, Jinheon Baek, Sung Ju Hwang\\
 <span style="color:darkred">**ECCVW**</span> 2022, The first workshop on Visual Object-oriented Learning meets Interaction (VOLI): Discovery, Representations, and Applications
 
