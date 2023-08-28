@@ -15,20 +15,6 @@ My research interest includes:
 
 I love playing guitar 🎸 and eating dakgalbi 🐓.
 This is my <a href="../cv.pdf" style="color: #900023; text-decoratio.n: none;">**CV.**</a>
-<!-- ## News
-Aug. 2022. Research internship at **Meta AI**, Seattle, WA, USA \\
-Jul. 2022. Recipient of **Google Ph.D. fellowship** \\
-Feb. 2022. Recipient of AI/CS/EE Rising stars 2022 award by **Google exploreCSR** \\
-Jan. 2022. One paper accepted to **ICLR 2022** as <span style="color:red">Spotlight Presentation</span> \\
-Oct. 2021. Best presentation award at KAIST-ADD workshop \\
-Sep. 2021. Two papers accepted to **NeurIPS 2021** as <span style="color:red">Spotlight Presentations</span> \\
-Apr. 2021. Invited talk at Samsung, Suwon, South Korea \\
-Jan. 2021. One paper accepted to **ICLR 2021** \\
-Dec. 2020. Start of my internship at **AITRICS**, Seoul, South Korea \\
-Dec. 2020. ICML oustanding reviewer (Top 30%) \\
-Nov. 2020. Recipient of NAVER Ph.D. fellowship \\
-Dec. 2019. One paper accepted to **ICLR 2020** as <span style="color:red">Oral Presentation</span> -->
-
 
 ## Education
 - **M.S. & Ph.D. Integrated** in Artificial Intelligence Applications at <a href="https://www.korea.edu/mbshome/mbs/en/index.do" style="color: #900023; text-decoratio.n: none;">**Korea University**</a> \\
@@ -39,10 +25,16 @@ Mar. 2018 - Aug. 2022 \\
 GPA : *4.22 / 4.5* (Major GPA : *4.25 / 4.5*)
 
 ## International Conference Publications
+\* denotes equal contribution 
+- **Concept Bottleneck with Visual Concept Filtering for Explainable Medical Image Classification** \\
+[[paper]](https://arxiv.org/abs/2308.11920) [code] \\
+Injae Kim*, <b>Jongha Kim</b>*, Joonmyung Choi, Hyunwoo J. Kim\\
+<span style="color:darkred">**MICCAI Workshop**</span> 2023, 1st International Workshop on Foundation Models for General Medical AI
+
 - **Object Detection in Aerial Images with Uncertainty-Aware Graph Network** \\
 [[paper]](https://arxiv.org/abs/2208.10781) [code] \\
 <b>Jongha Kim</b>, Jinheon Baek, Sung Ju Hwang\\
-<span style="color:darkred">**ECCVW**</span> 2022, The first workshop on Visual Object-oriented Learning meets Interaction (VOLI): Discovery, Representations, and Applications
+<span style="color:darkred">**ECCV Workshop**</span> 2022, The first workshop on Visual Object-oriented Learning meets Interaction (VOLI): Discovery, Representations, and Applications
 
 ## Domestic Conference Publication
 - **A study on the Measurement System of Apple Sugar Content Based on Smartphone Camera** \\
