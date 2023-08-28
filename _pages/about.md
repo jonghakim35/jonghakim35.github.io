@@ -28,7 +28,7 @@ GPA : *4.22 / 4.5* (Major GPA : *4.25 / 4.5*)
 \* denotes equal contribution 
 - **Concept Bottleneck with Visual Concept Filtering for Explainable Medical Image Classification** \\
 [[paper]](https://arxiv.org/abs/2308.11920) [code] \\
-Injae Kim*, <b>Jongha Kim</b>*, Joonmyung Choi, Hyunwoo J. Kim\\
+Injae Kim\*, <b>Jongha Kim</b>\*, Joonmyung Choi, Hyunwoo J. Kim\\
 <span style="color:darkred">**MICCAI Workshop**</span> 2023, 1st International Workshop on Foundation Models for General Medical AI
 
 - **Object Detection in Aerial Images with Uncertainty-Aware Graph Network** \\
