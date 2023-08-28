@@ -70,7 +70,11 @@ Korea Patent Application No.10-2020-0153010.
 
 
 ## Invited Talks
-- **"Defining and solving problems in deep learning projects"** \\
+- **Korea University & LG AI Workshop** \\
+Korea University\\
+February, 2023.
+
+- **Defining and solving problems in deep learning projects** \\
 BoostCamp AI Tech 2nd course\\
 Nov 16, 2021.
 
@@ -96,3 +100,7 @@ Aug 5, 2020
 - **National Scholarship for Science and Engineering**, Korea Student Aid Foundation \\
 This scholarship supports undergraduates with strong academic performance in science and engineering, with the purpose of developing future leaders in those fields. \\
 Mar. 2018 - Aug. 2022
+
+## Languages
+- **Korean**, Navite Speaker
+- **English**, TEPS : 525 / 600 (*Near-native level*)
