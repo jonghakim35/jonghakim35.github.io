@@ -26,15 +26,21 @@ GPA : *4.22 / 4.5* (Major GPA : *4.25 / 4.5*)
 
 ## International Conference Publications
 \* denotes equal contribution 
+
+- **Groupwise Query Specialization and Quality-Aware Multi-Assignment for Transformer-based Visual Relationship Detection** \\
+[paper] [code] \\
+<b>Jongha Kim</b>\*, Jihwan Park\*, Jinyoung Park\*, Jinyoung Kim, Sehyung Kim, Hyunwoo J. Kim\\
+IEEE/CVF Conference on Computer Vision and Pattern Recognition <span style="color:darkred">**(CVPR)**</span> 2024.
+
 - **Concept Bottleneck with Visual Concept Filtering for Explainable Medical Image Classification** \\
 [[paper]](https://arxiv.org/abs/2308.11920) [code] \\
 Injae Kim\*, <b>Jongha Kim</b>\*, Joonmyung Choi, Hyunwoo J. Kim\\
-<span style="color:darkred">**MICCAI Workshop**</span> 2023, 1st International Workshop on Foundation Models for General Medical AI
+MedAGI Workshop at International Conference on Medical Image Computing and Computer-Assisted Intervention <span style="color:darkred">**(MedAGI@MICCAI)**</span> 2023 (Oral Presentation).
 
 - **Object Detection in Aerial Images with Uncertainty-Aware Graph Network** \\
 [[paper]](https://arxiv.org/abs/2208.10781) [code] \\
 <b>Jongha Kim</b>, Jinheon Baek, Sung Ju Hwang\\
-<span style="color:darkred">**ECCV Workshop**</span> 2022, The first workshop on Visual Object-oriented Learning meets Interaction (VOLI): Discovery, Representations, and Applications
+VOLI Workshop at European Conference on Computer Vision <span style="color:darkred">**(VOLI@ECCV)**</span> 2022.
 
 ## Domestic Conference Publication
 - **A study on the Measurement System of Apple Sugar Content Based on Smartphone Camera** \\
