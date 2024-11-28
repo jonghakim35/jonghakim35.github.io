@@ -56,7 +56,7 @@
                 {%- assign author_is_self = true -%}
               {%- endif -%}
             {%- endif -%}
-            {% if author.last == "Park" or author.first == "Dogyun" %}
+            {% if author.last contains "Kim" and author.first == "Jongha" %}
               {% assign author_is_self = true %}
             {% endif %}
             {%- assign coauthor_url = nil -%}

@@ -15,6 +15,8 @@ news: false # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-My goal is to develop <b><i>personalized and reliable multimodal AI agents</i></b>. My research focuses on personalizing Multimodal Large Language Models, exploring post-training methods (<i>e.g.,</i> DPO), systems (<i>e.g.,</i> RAG), and ways to leverage structured representations to complement these models to achieve the goal.
+My goal is to develop <b><i>personalized and reliable multimodal AI agents</i></b>. 
+My research focuses on personalizing Multimodal Large Language Models, exploring post-training methods (<i>e.g.,</i> DPO), systems (<i>e.g.,</i> RAG), and ways to leverage structured representations to complement these models to achieve the goal.
+For more information, please see my <a href="assets/pdf/jonghakim_CV.pdf">CV</a>.
 
 If you are interested in collaboration or have opportunities that align with my expertise, please feel free to reach out to me via contact email.
