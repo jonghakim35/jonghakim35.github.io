@@ -2,20 +2,20 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Dogyun Park # the website title (if blank, full name will be used instead)
-first_name: Dogyun
+title: Jongha Kim # the website title (if blank, full name will be used instead)
+first_name: Jongha
 middle_name:
-last_name: Park
-email: koparkrea@gmail.com
+last_name: Kim
+email: jonghakim@korea.ac.kr
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  The personal website of Dogyun Park
+  The personal website of Jongha Kim
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-keywords: Dogyun Park, machine learning, AI, artificial intelligence, Generative AI # add your own keywords or leave empty
+keywords: Jongha Kim, machine learning, AI, artificial intelligence, Generative AI # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: 🧑‍💻 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
-url: https://dogyunpark.github.io # the base hostname & protocol for your site
+url: https://jonghakim35.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
@@ -43,7 +43,7 @@ repo_trophies:
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
-rss_icon: true
+rss_icon: false
 
 # -----------------------------------------------------------------------------
 # Layout
@@ -73,9 +73,10 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: DogyunPark # your GitHub user name
+cv_pdf: jonghakim_CV.pdf
+github_username: jonghakim35 # your GitHub user name
 gitlab_username: # your GitLab user name
-linkedin_username: dogyunpark # your LinkedIn user name
+linkedin_username: jongha-kim-53545a1b5 # your LinkedIn user name
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 medium_username: # your Medium username
 orcid_id: # your ORCID ID
@@ -84,7 +85,7 @@ pinterest_id: # your pinterest id
 publons_id: # your ID on Publons
 quora_username: # your Quora username
 research_gate_profile: # your profile on ResearchGate
-scholar_userid: Cgc-2roAAAAJ # your Google Scholar ID
+scholar_userid: Cgc-A0hyk7QAAAAJ # your Google Scholar ID
 scopus_id: # your profile on Scopus
 semanticscholar_id: # your Semantic Scholar ID
 spotify_id: # your spotify id
@@ -115,9 +116,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-
 # Disqus comments (DEPRECATED)
-disqus_shortname: dogyun # put your disqus shortname
+disqus_shortname: deprecated # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.
@@ -268,8 +268,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Park]
-  first_name: [Dogyun]
+  last_name: [Kim]
+  first_name: [Jongha]
 
   style: apa
   locale: en

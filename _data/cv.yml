@@ -1,14 +1,14 @@
 - title: Education
   type: time_table
   contents:
-    - title: Ph.D. in Computer Science
+    - title: M.S. & Ph.D. in Computer Science
       institution: Korea University, Seoul, Republic of Korea
-      year: 2020-Present
+      year: Sep 2022-Present
       description:
         - Advised by <a href="https://scholar.google.com/citations?hl=en&user=LfBoJt8AAAAJ&view_op=list_works&sortby=pubdate">Hyunwoo J. Kim</a>.
-    - title: B.S. in Mechanical Engineering
+    - title: B.S. in Computer Science and Engineering & Statistics (Double Major)
       institution: Korea University, Seoul, Republic of Korea
-      year: 2012-2019
+      year: Mar 2018-Aug 2022
 
 - title: Work Experience
   type: time_table
@@ -25,25 +25,36 @@
       description:
         - Conducted research for the development of generative AI models.
 
-- title: Teaching
+- title: Teaching & Talks
   type: time_table
   contents:
     - title: Teaching Assistant
       institution: >
-        <a href="https://github.com/mlvlab/data303/">DATA303: Advanced Machine Learning</a>, Korea University
-      year: Spring 2024
-      
-    - title: Teaching Assistant
-      institution: >
-        <a href="https://github.com/mlvlab/COSE474_2024/">COSE474: Deep Learning</a>, Korea University
+        Special Topics in Artificial Intelligence (AAA740), Korea University
       year: Fall 2024
+      
+    - title: Korea University & LG AI Workshop
+      institution: >
+        Korea University
+      year: Feb 2023
+    - title: Defining and solving problems in deep learning projects
+      institution: >
+        BoostCamp AI Tech 2nd course, Upstage AI
+      year: Nov 2021
 
 - title: Professional Services
   type: list
   contents:    
-    - <strong>Conference Reviewer:</strong> NeurIPS (2024), ICLR (2025).
+    - <strong>Conference Reviewer:</strong> NeurIPS (2024), ICLR (2025), CVPR (2024, 2025), AAAI (2025), AISTATS (2025), MedAGI@MICCAI (2024).
 
 - title: Languages
   type: list
   contents:
-    - Korean (Native), English (Fluent)
+    - Korean (Native)
+    - English (Fluent), TEPS 544/600 (officially described as 'Native Level of English Proficiency')
+
+- title: Programming Languages
+  type: list
+  contents:
+    - Python, PyTorch, Git, Bash (Most proficient)
+    - Tensorflow, SQL, Node.js, React.js, Vue.js (Experienced)

@@ -3,11 +3,11 @@ layout: page
 permalink: /repositories/
 title: repositories
 description: Most of my research has code open-sourced at GitHub.
-nav: true
+nav: false
 nav_order: 3
 ---
 
-## GitHub Account
+<!-- ## GitHub Account
 
 {% if site.data.repositories.github_users %}
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
@@ -27,4 +27,4 @@ nav_order: 3
     {% include repository/repo.liquid repository=repo %}
   {% endfor %}
 </div>
-{% endif %}
+{% endif %} -->
