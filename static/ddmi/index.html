@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="We propose a latent diffusion model that generates hierarchically decomposed positional embeddings of Implicit neural representations, enabling high-quality generation on various data domains.">
+  <meta name="keywords" content="INR, latent diffusion">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DDMI: Domain-Agnostic Latent Diffusion Models for Synthesizing High-quality Implicit Neural Representations</title>
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./css/bulma.min.css">
+  <link rel="stylesheet" href="./css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="icon" href="./images/favicon.svg">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./js/fontawesome.all.min.js"></script>
+  <script src="./js/bulma-carousel.min.js"></script>
+  <script src="./js/bulma-slider.min.js"></script>
+  <script src="./js/index.js"></script>
+</head>
+<body>
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-3 is-size-5-mobile publication-title">DDMI: Domain-Agnostic Latent Diffusion Models for Synthesizing High-quality Implicit Neural Representations</h1>
+          <div class="is-size-5 is-size-6-mobile publication-authors">
+            <span class="author-block">
+              Dogyun Park</a>,</span>
+            <span class="author-block">
+              Sihyeon Kim</a>,</span>
+            <span class="author-block">
+              Sojin Lee</a>,
+            </span>
+            <span class="author-block">
+              <a href="https://pages.cs.wisc.edu/~hwkim/">Hyunwoo J. Kim</a>
+            </span>
+          </div>
+
+          <div class="is-size-5 is-size-6-mobile publication-authors">
+            <span class="author-block">
+              <a href="https://mlv.korea.ac.kr/home/">MLV LAB</a>,
+            </span>
+            <span class="author-block">Korea University</span>
+          </div>
+
+          <div class="is-size-5 is-size-6-mobile publication-authors">
+            <span class="author-block">
+              ICLR 2024</a>
+            </span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              </span>
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/2401.12517"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+              <!-- Video Link. -->
+              <span class="link-block">
+                <a href="https://iclr.cc/virtual/2024/poster/19530"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                  </span>
+                  <span>Video</span>
+                </a>
+              </span>
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/mlvlab/DDMI"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <h2 class="subtitle is-size-6-mobile has-text-centered">
+        TL;DR: We propose a latent diffusion model that generates hierarchically decomposed positional embeddings of Implicit neural representations, enabling high-quality generation on various data domains.
+      </h2>
+      <img src="images/mainfigure.png" alt="Additional Results" class="center-image blend-img-background"/>
+    </div>
+  </div>
+</section>
+
+<hr>
+<section class="section is-light">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3 is-size-5-mobile">Abstract</h2>
+        <div class="content is-size-7-mobile has-text-justified">
+          <p>
+            Recent studies have introduced a new class of generative models for synthesizing implicit neural representations (INRs) that capture arbitrary continuous signals in various domains.
+            These models opened the door for domain-agnostic generative models, but they often fail to achieve high-quality generation.
+            We observed that the existing methods generate the weights of neural networks to parameterize INRs and evaluate the network with fixed positional embeddings (PEs).
+            Arguably, this architecture limits the expressive power of generative models and results in low-quality INR generation.
+            To address this limitation, we propose <b style="color: #000000">D</b>omain-agnostic Latent <b style="color: #000000">D</b>iffusion <b style="color: #000000">M</b>odel for <b style="color: #000000">I</b>NRs (<b style="color: #000000">DDMI</b>) that generates adaptive positional embeddings instead of neural networks' weights.
+            Specifically, we develop a Discrete-to-continuous space Variational AutoEncoder (<b style="color: #000000">D2C-VAE</b>), which seamlessly connects discrete data and the continuous signal functions in the shared latent space. 
+            Additionally, we introduce a novel conditioning mechanism for evaluating INRs with the hierarchically decomposed PEs to further enhance expressive power.
+            Extensive experiments across four modalities, e.g., 2D images, 3D shapes, Neural Radiance Fields, and videos, with seven benchmark datasets, demonstrate the versatility of DDMI and its superior performance compared to the existing INR generative models.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+  </div>
+</section>
+<hr>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Method Overview. -->
+    
+    <div class="content">
+      <h2 class="title is-3 is-size-5-mobile">Method Overview</h2>
+      <h3 class="title is-4 is-size-6-mobile">PE generation</h3>
+      <div class="content is-size-7-mobile">
+        <p>
+          To generate high-quality implicit neural representations, we propose the generation of adaptive positional embeddings (PEs) using a diffusion model instead of generating the weights of INRs. 
+          This approach shifts the primary expressive power from MLPs to PEs, which we have observed to result in finer detailed generation results. 
+          To further enhance expressive capacity, we hierarchically decompose the PEs into multiple scales (HDBFs) and modulate the MLPs in a coarse-to-fine manner (CFC).
+        </p>
+      </div>
+      <img src="videos/concept.gif" alt="Framework" class="center-image blend-img-background"/>
+      <h3 class="title is-4 is-size-6-mobile">DDMI</h3>
+      <div class="content is-size-7-mobile">
+        <p>
+          In the first stage, we learn the latent space of continuous signals using our D2C-VAE framework.
+          We then approximate the distribution of this latent space with the latent diffusion model. 
+          After training, DDMI generates hierarchically decomposed positional embeddings (HDBFs), from which the MLPs read out the signal values for given coordinates.
+        </p>
+      </div>
+      <img src="videos/framework.gif" alt="Framework" class="center-image blend-img-background"/>
+    </div>
+  </div>
+<hr>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Animation. -->
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3 is-size-5-mobile">Applications</h2>
+
+        <!-- unconditional generation. -->
+        <h3 class="title is-4 is-size-6-mobile">2D image generation</h3>
+        <div class="content is-size-7-mobile">
+          <p>
+            DDMI can generate images with more fine-grained details compared to the previous INR generative models.
+          </p>
+        </div>
+          <div class="content has-text-centered">
+            <img src="images/image_compare.jpg" alt="Framework" width="100%" class="center blend-img-background"/>
+          </div>
+        <br/>
+        <!--/ Interpolating. -->
+
+        <!-- Re-rendering. -->
+        <h3 class="title is-4 is-size-6-mobile">Arbitrary-scale image generation</h3>
+        <div class="content is-size-7-mobile">
+          <p>
+            With DDMI, we can freely control the scale of generated images, e.g., arbitrary resolution or zoom-in, by using different sets of coordinates.
+          </p>
+        </div>
+        <div class="content has-text-centered">
+          <img src="videos/arbitrary_generation3.gif" alt="arbitrary_generation" class="blend-img-background"/>
+        </div>
+        <!--/ Re-rendering. -->
+
+      </div>
+    </div>
+  </div>
+  <br/>
+
+  <div class="container is-max-desktop">
+    <!-- Animation. -->
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <!-- unconditional generation. -->
+        <h3 class="title is-4 is-size-6-mobile">3D generation</h3>
+        <div class="content is-size-7-mobile">
+          <p>
+            DDMI can generate view-consistent and fine detailed 3D objects (occupancy function and NeRF).
+          </p>
+        </div>
+          <div class="container">
+            <div id="results-carousel" class="carousel results-carousel">
+              <div class="item item-steve">
+                <video poster="" id="steve" autoplay controls muted loop playsinline width="100%">
+                  <source src="./videos/bigsofa.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-longsofa">
+                <video poster="" id="longsofa" autoplay controls muted loop playsinline width="100%">
+                  <source src="./videos/supercar.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-roundtable">
+                <video poster="" id="roundtable" autoplay controls muted loop playsinline width="100%">
+                  <source src="./videos/suv.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-ship-tp">
+                <video poster="" id="ship" autoplay controls muted loop playsinline width="100%">
+                  <source src="./videos/boat.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-table-tp">
+                <video poster="" id="table" autoplay controls muted loop playsinline width="100%">
+                  <source src="./videos/bong.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-table2-tp">
+                <video poster="" id="table2" autoplay controls muted loop playsinline width="100%">
+                  <source src="./videos/gun.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-rifle-tp">
+                <video poster="" id="rifle" autoplay controls muted loop playsinline width="100%">
+                  <source src="./videos/roundchair.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-bench-tp">
+                <video poster="" id="chair" autoplay controls muted loop playsinline width="100%">
+                  <source src="./videos/chair.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-bench-tp">
+                <video poster="" id="airplane2" autoplay controls muted loop playsinline width="100%">
+                  <source src="./videos/airplane2.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-bench-tp">
+                <video poster="" id="lamp" autoplay controls muted loop playsinline width="100%">
+                  <source src="./videos/lamp.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-bench-tp">
+                <video poster="" id="car2" autoplay controls muted loop playsinline width="100%">
+                  <source src="./videos/car2.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-bench-tp">
+                <video poster="" id="longboat" autoplay controls muted loop playsinline width="100%">
+                  <source src="./videos/longboat.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-bench-tp">
+                <video poster="" id="airplane3" autoplay controls muted loop playsinline width="100%">
+                  <source src="./videos/airplane3.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-bench-tp">
+                <video poster="" id="squaretable" autoplay controls muted loop playsinline width="100%">
+                  <source src="./videos/squaretable.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-bench-tp">
+                <video poster="" id="toolchair" autoplay controls muted loop playsinline width="100%">
+                  <source src="./videos/toolchair.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-bench-tp">
+                <video poster="" id="suv2" autoplay controls muted loop playsinline width="100%">
+                  <source src="./videos/suv2.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-bench-tp">
+                <video poster="" id="sofa" autoplay controls muted loop playsinline width="100%">
+                  <source src="./videos/sofa.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-toolchair2-tp">
+                <video poster="" id="toolchair2" autoplay controls muted loop playsinline width="100%">
+                  <source src="./videos/toolchair2.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-toolchair2-tp">
+                <video poster="" id="toolchair2" autoplay controls muted loop playsinline width="100%">
+                  <source src="./videos/bench2.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-toolchair2-tp">
+                <video poster="" id="toolchair2" autoplay controls muted loop playsinline width="100%">
+                  <source src="./videos/bus.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-toolchair2-tp">
+                <video poster="" id="toolchair2" autoplay controls muted loop playsinline width="100%">
+                  <source src="./videos/sofa3.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-toolchair2-tp">
+                <video poster="" id="toolchair2" autoplay controls muted loop playsinline width="100%">
+                  <source src="./videos/flattable.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-toolchair2-tp">
+                <video poster="" id="toolchair2" autoplay controls muted loop playsinline width="100%">
+                  <source src="./videos/triangletable.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+          </div>
+          <div class="content is-size-7-mobile has-text-centered">
+            <p>
+              Occupancy Function
+            </p>
+          </div>
+      </div>
+    <!--/ Animation. -->
+    </div>
+  </div>
+
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+          <div class="container">
+            <div id="results-carousel" class="carousel results-carousel">
+              <div class="item item-steve">
+                <video poster="" id="steve" autoplay controls muted loop playsinline width="100%">
+                  <source src="./videos/nerf_car1.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-truck">
+                <video poster="" id="truck" autoplay controls muted loop playsinline width="100%">
+                  <source src="./videos/nerf_car2.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-longsofa">
+                <video poster="" id="longsofa" autoplay controls muted loop playsinline width="100%">
+                  <source src="./videos/nerf_car3.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-roundtable">
+                <video poster="" id="roundtable" autoplay controls muted loop playsinline width="100%">
+                  <source src="./videos/nerf_car4.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-roundtable">
+                <video poster="" id="roundtable" autoplay controls muted loop playsinline width="100%">
+                  <source src="./videos/nerf_car5.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-roundtable">
+                <video poster="" id="roundtable" autoplay controls muted loop playsinline width="100%">
+                  <source src="./videos/nerf_car6.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+            </div>
+          </div>
+          <div class="content is-size-7-mobile has-text-centered">
+            <p>
+              Neural Radiance Fields
+            </p>
+          </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h3 class="title is-4 is-size-6-mobile">Text to shape generation</h3>
+        <div class="content is-size-7-mobile">
+          <p>
+            DDMI can also be easily adopted to generate diverse and semantically aligned 3D objects given the text prompt.
+          </p>
+        </div>
+          <div class="container">
+            <div id="results-carousel" class="carousel results-carousel">
+              <div class="item item-steve">
+                <video poster="A chair" id="steve" autoplay controls muted loop playsinline width="100%">
+                  <source src="./videos/rockingchair.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-truck">
+                <video poster="" id="truck" autoplay controls muted loop playsinline width="100%">
+                  <source src="./videos/rockingchair1.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-longsofa">
+                <video poster="" id="longsofa" autoplay controls muted loop playsinline width="100%">
+                  <source src="./videos/rockingchair2.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-roundtable">
+                <video poster="" id="roundtable" autoplay controls muted loop playsinline width="100%">
+                  <source src="./videos/rockingchair3.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-roundtable">
+                <video poster="" id="roundtable" autoplay controls muted loop playsinline width="100%">
+                  <source src="./videos/rockingchair4.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-roundtable">
+                <video poster="" id="roundtable" autoplay controls muted loop playsinline width="100%">
+                  <source src="./videos/rockingchair5.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-roundtable">
+                <video poster="" id="roundtable" autoplay controls muted loop playsinline width="100%">
+                  <source src="./videos/rockingchair6.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-roundtable">
+                <video poster="" id="roundtable" autoplay controls muted loop playsinline width="100%">
+                  <source src="./videos/rockingchair7.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-roundtable">
+                <video poster="" id="roundtable" autoplay controls muted loop playsinline width="100%">
+                  <source src="./videos/rockingchair8.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-roundtable">
+                <video poster="" id="roundtable" autoplay controls muted loop playsinline width="100%">
+                  <source src="./videos/rockingchair9.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-roundtable">
+                <video poster="" id="roundtable" autoplay controls muted loop playsinline width="100%">
+                  <source src="./videos/rockingchair10.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-roundtable">
+                <video poster="" id="roundtable" autoplay controls muted loop playsinline width="100%">
+                  <source src="./videos/rockingchair11.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+            </div>
+          </div>
+          <div class="content is-size-7-mobile has-text-centered">
+            <p>
+              "A rocking chair"
+            </p>
+          </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+          <div class="container">
+            <div id="results-carousel" class="carousel results-carousel">
+              <div class="item item-steve">
+                <video poster="" id="steve" autoplay controls muted loop playsinline width="100%">
+                  <source src="./videos/twolayer7.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-truck">
+                <video poster="" id="truck" autoplay controls muted loop playsinline width="100%">
+                  <source src="./videos/twolayer8.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-longsofa">
+                <video poster="" id="longsofa" autoplay controls muted loop playsinline width="100%">
+                  <source src="./videos/twolayer10.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-roundtable">
+                <video poster="" id="roundtable" autoplay controls muted loop playsinline width="100%">
+                  <source src="./videos/twolayer3.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-roundtable">
+                <video poster="" id="roundtable" autoplay controls muted loop playsinline width="100%">
+                  <source src="./videos/twolayer4.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-roundtable">
+                <video poster="" id="roundtable" autoplay controls muted loop playsinline width="100%">
+                  <source src="./videos/twolayer5.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-roundtable">
+                <video poster="" id="roundtable" autoplay controls muted loop playsinline width="100%">
+                  <source src="./videos/twolayer6.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-roundtable">
+                <video poster="" id="roundtable" autoplay controls muted loop playsinline width="100%">
+                  <source src="./videos/twolayer.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-roundtable">
+                <video poster="" id="roundtable" autoplay controls muted loop playsinline width="100%">
+                  <source src="./videos/twolayer9.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-roundtable">
+                <video poster="" id="roundtable" autoplay controls muted loop playsinline width="100%">
+                  <source src="./videos/twolayer2.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-roundtable">
+                <video poster="" id="roundtable" autoplay controls muted loop playsinline width="100%">
+                  <source src="./videos/twolayer1.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+            </div>
+          </div>
+          <div class="content is-size-7-mobile has-text-centered">
+            <p>
+              "A two-layered table"
+            </p>
+          </div>
+      </div>
+    </div>
+  </div>
+  <br/>
+
+  <!-- Video. -->
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+
+        <!-- unconditional generation. -->
+        <h3 class="title is-4 is-size-6-mobile">Video generation</h3>
+        <div class="content is-size-7-mobile">
+          <p>
+            Using DDMI, we can also generate a high-quality video (16 frames).
+          </p>
+        </div>
+          <div class="content has-text-centered">
+            <div class="item item-table-tp">
+              <video poster="" id="mergedvideo" autoplay controls muted loop playsinline width="100%">
+                <source src="./videos/mergevideo.mp4"
+                        type="video/mp4">
+              </video>
+            </div>
+            <div class="item item-table-tp">
+              <video poster="" id="mergevideo2" autoplay controls muted loop playsinline width="100%">
+                <source src="./videos/mergevideo2.mp4"
+                        type="video/mp4">
+              </video>
+            </div>
+            <div class="item item-table-tp">
+              <video poster="" id="mergevideo3" autoplay controls muted loop playsinline width="100%">
+                <source src="./videos/mergevideo3.mp4"
+                        type="video/mp4">
+              </video>
+            </div>
+            <div class="item item-table-tp">
+              <video poster="" id="mergevideo4" autoplay controls muted loop playsinline width="100%">
+                <source src="./videos/mergevideo4.mp4"
+                        type="video/mp4">
+              </video>
+            </div>
+          </div>
+        <br/>
+        <!--/ Interpolating. -->
+      </div>
+    </div>
+</section>
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@inproceedings{park2024ddmi,
+  author    = {Dogyun Park, Sihyeon Kim, Sojin Lee, Hyunwoo J. Kim},
+  title     = {DDMI: Domain-Agnostic Latent Diffusion Models for Synthesizing High-Quality Implicit Neural Representations},
+  booktitle = {The Twelfth International Conference on Learning Representations},
+  year      = {2024},
+}</code></pre>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <a class="icon-link"
+         href="./videos/nerfies_paper.pdf">
+        <i class="fas fa-file-pdf"></i>
+      </a>
+      <a class="icon-link" href="https://github.com/keunhong" class="external-link" disabled>
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This website is licensed under a <a rel="license"
+                                                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+            This means you are free to borrow the <a
+              href="https://github.com/nerfies/nerfies.github.io">source code</a> of this website.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
