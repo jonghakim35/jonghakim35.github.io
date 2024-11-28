@@ -1,0 +1,10 @@
+github_users:
+  - DogyunPark
+
+repo_description_lines_max: 2
+
+github_repos:
+  - mlvlab/DDMI
+  - mlvlab/CAF
+  - mlvlab/DAVI
+  - kdst-team/Probablistic_precision_recall

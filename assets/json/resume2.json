@@ -1,0 +1,61 @@
+{
+  "work": [
+    {
+      "name": "Samsung Electronics, Foundry Division",
+      "position": "Semiconductor Process Technology Engineer",
+      "startDate": "2019-01",
+      "endDate": "2020-07",
+      "summary": "Monitored wafer performance and improved yield and process efficiency."
+    },
+    {
+      "name": "Korea Institute of Science and Technology",
+      "position": "Research Assistant",
+      "startDate": "2020-09",
+      "endDate": "2022-06",
+      "summary": "Conducted research for the development of generative AI models."
+    }
+  ],
+  "education": [
+    {
+      "institution": "Korea University",
+      "location": "Seoul, Republic of Korea",
+      "area": "Computer Science and Engineering",
+      "studyType": "M.S & Ph.D Integrated Program",
+      "startDate": "2020-09",
+      "endDate": "Present"
+    },
+    {
+      "institution": "Korea University",
+      "location": "Seoul, Republic of Korea",
+      "area": "Mechanical Engineering",
+      "studyType": "B.S",
+      "startDate": "2012-03",
+      "endDate": "2019-01"
+    }
+  ],
+  "languages": [
+    {
+      "language": "Korean",
+      "fluency": "Native speaker",
+      "icon": ""
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent",
+      "icon": ""
+    }
+  ],
+  "Professional Services": [
+    {
+      "name": "Conference Reviewer",
+      "highlights": ["ICLR 2025", "NeurIPS 2024"]
+    }
+  ],
+  "Teaching": [
+    {
+      "name": "Teaching Assistant",
+      "summary": "DATA303",
+      "startDate": "2018-01-01"
+    }
+  ]
+}

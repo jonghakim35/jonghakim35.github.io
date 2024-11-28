@@ -1,0 +1,49 @@
+- title: Education
+  type: time_table
+  contents:
+    - title: Ph.D. in Computer Science
+      institution: Korea University, Seoul, Republic of Korea
+      year: 2020-Present
+      description:
+        - Advised by <a href="https://scholar.google.com/citations?hl=en&user=LfBoJt8AAAAJ&view_op=list_works&sortby=pubdate">Hyunwoo J. Kim</a>.
+    - title: B.S. in Mechanical Engineering
+      institution: Korea University, Seoul, Republic of Korea
+      year: 2012-2019
+
+- title: Work Experience
+  type: time_table
+  contents:
+    - title: Semiconductor Process Technology Engineer
+      institution: Samsung Electronics, Foundry Division, Suwon, Republic of Korea
+      year: 2019-2020
+      description:
+        - Monitored wafer performance and improved yield and process efficiency.
+
+    - title: Research Intern
+      institution: Korea Institute of Science and Technology, Seoul, Republic of Korea
+      year: 2020-2022
+      description:
+        - Conducted research for the development of generative AI models.
+
+- title: Teaching
+  type: time_table
+  contents:
+    - title: Teaching Assistant
+      institution: >
+        <a href="https://github.com/mlvlab/data303/">DATA303: Advanced Machine Learning</a>, Korea University
+      year: Spring 2024
+      
+    - title: Teaching Assistant
+      institution: >
+        <a href="https://github.com/mlvlab/COSE474_2024/">COSE474: Deep Learning</a>, Korea University
+      year: Fall 2024
+
+- title: Professional Services
+  type: list
+  contents:    
+    - <strong>Conference Reviewer:</strong> NeurIPS (2024), ICLR (2025).
+
+- title: Languages
+  type: list
+  contents:
+    - Korean (Native), English (Fluent)
