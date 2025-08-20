@@ -1,0 +1,19 @@
+current directory: /srv/jekyll/vendor/bundle/ruby/3.3.0/gems/eventmachine-1.2.7/ext/fastfilereader
+/usr/local/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /srv/jekyll/vendor/bundle/ruby/3.3.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20250820-30-pfhu0o sitelibdir\=./.gem.20250820-30-pfhu0o clean
+
+current directory: /srv/jekyll/vendor/bundle/ruby/3.3.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20250820-30-pfhu0o sitelibdir\=./.gem.20250820-30-pfhu0o
+compiling mapper.cpp
+compiling rubymain.cpp
+linking shared-object fastfilereaderext.so
+
+current directory: /srv/jekyll/vendor/bundle/ruby/3.3.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20250820-30-pfhu0o sitelibdir\=./.gem.20250820-30-pfhu0o install
+/usr/bin/install -c -m 0755 fastfilereaderext.so ./.gem.20250820-30-pfhu0o
+
+current directory: /srv/jekyll/vendor/bundle/ruby/3.3.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20250820-30-pfhu0o sitelibdir\=./.gem.20250820-30-pfhu0o clean
