@@ -1,4 +1,7 @@
-FROM ruby:latest
+# pin to the same Ruby version CI uses (see .github/workflows/deploy.yml and
+# .ruby-version) so local Docker builds reproduce CI. `ruby:latest` drifts and
+# its newer RubyGems platform naming no longer matches the committed Gemfile.lock.
+FROM ruby:3.3.5
 
 # uncomment these if you are having this issue with the build:
 # /usr/local/bundle/gems/jekyll-4.3.4/lib/jekyll/site.rb:509:in `initialize': Permission denied @ rb_sysopen - /srv/jekyll/.jekyll-cache/.gitignore (Errno::EACCES)
@@ -53,14 +56,15 @@ ENV EXECJS_RUNTIME=Node \
 RUN mkdir /srv/jekyll
 
 # copy the Gemfile and Gemfile.lock to the image
-# ADD Gemfile.lock /srv/jekyll
 ADD Gemfile /srv/jekyll
+ADD Gemfile.lock /srv/jekyll
 
 # set the working directory
 WORKDIR /srv/jekyll
 
-# install jekyll and dependencies
-RUN gem install --no-document jekyll bundler
+# install jekyll and the bundler version pinned in Gemfile.lock (BUNDLED WITH)
+RUN gem install --no-document jekyll
+RUN gem install --no-document bundler -v 2.7.2
 RUN bundle install --no-cache
 
 EXPOSE 8080
