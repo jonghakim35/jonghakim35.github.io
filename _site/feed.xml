@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://0.0.0.0:8080/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:8080/" rel="alternate" type="text/html" hreflang="en" /><updated>2026-06-18T06:19:17+00:00</updated><id>http://0.0.0.0:8080/feed.xml</id><title type="html">Jongha Kim</title><subtitle>The personal website of Jongha Kim
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://0.0.0.0:8080/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:8080/" rel="alternate" type="text/html" hreflang="en" /><updated>2026-06-18T16:21:30+00:00</updated><id>http://0.0.0.0:8080/feed.xml</id><title type="html">Jongha Kim</title><subtitle>The personal website of Jongha Kim
 </subtitle><entry><title type="html">a post with tabs</title><link href="http://0.0.0.0:8080/sample-posts/2024/05/01/tabs.html" rel="alternate" type="text/html" title="a post with tabs" /><published>2024-05-01T00:32:13+00:00</published><updated>2024-05-01T00:32:13+00:00</updated><id>http://0.0.0.0:8080/sample-posts/2024/05/01/tabs</id><content type="html" xml:base="http://0.0.0.0:8080/sample-posts/2024/05/01/tabs.html"><![CDATA[<p>This is how a post with <a href="https://github.com/Ovski4/jekyll-tabs">tabs</a> looks like. Note that the tabs could be used for different purposes, not only for code.</p>
 
 <h2 id="first-tabs">First tabs</h2>
@@ -24,7 +24,7 @@ Content 2
 
 <p>With this you can generate visualizations like:</p>
 
-<ul id="log" class="tab" data-tab="8de15bc3-9a20-4a3e-9d8c-40e9b95ca9fe" data-name="log">
+<ul id="log" class="tab" data-tab="56e74281-95fd-4147-9fb0-a585b75fca96" data-name="log">
   
       <li class="active" id="log-php">
           <a href="#">php </a>
@@ -39,7 +39,7 @@ Content 2
       </li>
   
 </ul>
-<ul class="tab-content" id="8de15bc3-9a20-4a3e-9d8c-40e9b95ca9fe" data-name="log">
+<ul class="tab-content" id="56e74281-95fd-4147-9fb0-a585b75fca96" data-name="log">
   
       <li class="active">
 <div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">var_dump</span><span class="p">(</span><span class="s1">'hello'</span><span class="p">);</span>
@@ -63,7 +63,7 @@ Content 2
 
 <h2 id="another-example">Another example</h2>
 
-<ul id="data-struct" class="tab" data-tab="b43331ef-4e27-466b-a2be-a86059bcd614" data-name="data-struct">
+<ul id="data-struct" class="tab" data-tab="c9b4bda2-8192-42c3-a526-056ec1eb8524" data-name="data-struct">
   
       <li class="active" id="data-struct-yaml">
           <a href="#">yaml </a>
@@ -74,7 +74,7 @@ Content 2
       </li>
   
 </ul>
-<ul class="tab-content" id="b43331ef-4e27-466b-a2be-a86059bcd614" data-name="data-struct">
+<ul class="tab-content" id="c9b4bda2-8192-42c3-a526-056ec1eb8524" data-name="data-struct">
   
       <li class="active">
 <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">hello</span><span class="pi">:</span>
@@ -96,7 +96,7 @@ Content 2
 
 <h2 id="tabs-for-something-else">Tabs for something else</h2>
 
-<ul id="something-else" class="tab" data-tab="7b68cec0-9572-49bc-a566-a7250e4b0825" data-name="something-else">
+<ul id="something-else" class="tab" data-tab="2a42043a-33df-4647-9236-3ce9cabef389" data-name="something-else">
   
       <li class="active" id="something-else-text">
           <a href="#">text </a>
@@ -111,7 +111,7 @@ Content 2
       </li>
   
 </ul>
-<ul class="tab-content" id="7b68cec0-9572-49bc-a566-a7250e4b0825" data-name="something-else">
+<ul class="tab-content" id="2a42043a-33df-4647-9236-3ce9cabef389" data-name="something-else">
   
       <li class="active">
 <p>Regular text</p>
