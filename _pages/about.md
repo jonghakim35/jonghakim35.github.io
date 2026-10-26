@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 subtitle: |+
-  M.S & Ph.D Integrated Student in MLV Lab, advised by <a href="https://scholar.google.com/citations?hl=en&user=LfBoJt8AAAAJ&view_op=list_works&sortby=pubdate">Prof. Hyunwoo J. Kim</a>.<br><br>
+  Ph.D. candidate in MLV Lab, advised by <a href="https://scholar.google.com/citations?hl=en&user=LfBoJt8AAAAJ&view_op=list_works&sortby=pubdate">Prof. Hyunwoo J. Kim</a>.<br><br>
   Department of Computer Science and Engineering at <a href="https://www.korea.edu/sites/en/index.do">Korea University</a>, Seoul, Republic of Korea.
 
 profile:
@@ -15,11 +15,11 @@ news: false # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-My research focuses on scaling what matters in multimodal large language model (MLLM) systems, moving beyond simply increasing data and compute.
-I pursue this goal across the full MLLM lifecycle through efficient model and agentic system design, high-quality supervision, post-training, and evidence-aware long-context inference.
+My research focuses on reliable and efficient multimodal large language model (MLLM) systems for fine-grained understanding and reasoning over complex multimodal evidence.
+I pursue this goal through agentic and scalable MLLM systems, post-training and reinforcement learning, and efficient context and token processing.
 
-I am currently a Research Scientist Intern at Adobe Research, Video AI Lab, working on language-guided video matting, mentored by Joon-Young Lee, Seoung Wug Oh, and David Seunghyun Yoon.
-I am also collaborating with Google Cloud AI, together with Jinsung Yoon.
+Previously, I was a Research Scientist Intern at Adobe Research’s Video AI Lab.
+I also collaborate with Jinsung Yoon at Google Cloud AI.
 
 For more information, please see my <a href="assets/pdf/jonghakim_CV.pdf">CV</a>.
 
