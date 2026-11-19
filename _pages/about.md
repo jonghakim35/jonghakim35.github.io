@@ -17,7 +17,6 @@ social: true  # includes social icons at the bottom of the page
 ---
 My research focuses on reliable and efficient multimodal large language model (MLLM) systems for fine-grained understanding and reasoning over complex multimodal evidence.
 I pursue this goal through agentic and scalable MLLM systems, post-training and reinforcement learning, and efficient context and token processing.
-My recent work includes multi-agent harness optimization, self-evolving multimodal agentic reasoning, and self-correcting video object segmentation.
 
 Previously, I was a Research Scientist Intern at Adobe Research’s Video AI Lab.
 I also collaborate with Jinsung Yoon at Google Cloud AI.
